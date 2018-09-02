@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: WebWorker
+title: WebMiner
 subtitle: 
 description: 弘树的个人博客，关注 Web & 前端技术，记录所见所闻
 keywords: Web, FrontEnd, 前端, Node.js, V8
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://hiroki.js.org
+url: https://web-miner.js.org
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -80,4 +80,4 @@ theme: minos
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:dickeylth/dickeylth.github.com.git
+  repo: git@github.com:web-miner/web-miner.github.io.git

@@ -28,7 +28,7 @@ tags:
 
 说了这么多，那到底真相是什么呢？找到一张图，虽然不是直接相关（[《jsmodem - 讓 jslinux 使用網路功能》](http://yurinfore.blogspot.com/2011/08/jsmodem-jslinux.html)，讲的是 JSLinux 里模拟 modem 的实现），大体也差不多了：
 
-![JSLinux](http://3.bp.blogspot.com/-oja4BK5Mz9I/TlhtvhULWEI/AAAAAAAAKqY/zYk1ixRTo14/s1600/jsmodem.png)
+![JSLinux](https://img.alicdn.com/tfs/TB1FuE0s67nBKNjSZLeXXbxCFXa-386-400.png)
 
 简单说大约是 JSLinux 跑在浏览器的 JS 引擎之上，提供一层虚拟机，然后加载了 Windows 2000 的系统跑了起来。当然实际细节要复杂得多，如果你打开浏览器控制台，观察一下请求，会发现初始阶段加载的 wasm 其实体积并不大，后面会不断异步拉取 `.bin` 文件，看起来是基于 Windows 2000 的镜像做了细粒度的拆分，而且在交互上也会发现随着交互的进行，源源不断会阻塞去按需加载新的 `.bin` 文件回来。
 
@@ -90,11 +90,11 @@ tags:
 
 另一条值得关注的与 wasm 有关的是 V8 官方博客的更新：[《Liftoff: a new baseline compiler for WebAssembly in V8》](https://v8project.blogspot.com/2018/08/liftoff.html)。在 V8 6.9 之前，wasm 在 V8 里的运行只能在 TurboFan 编译器上，而 TurboFan 本身是为高性能执行而设计，短板是启动性能（因为要做深入优化，代码生成速度慢），在 JS 的执行时 V8 里有 Ignition 编译器作为基线编译器（baseline compiler）来解决快速启动和内存占用的问题，而在 wasm 里则没有，因此这次引入了一个新的基线编译器 Liftoff 来解决 wasm 的快速启动问题。
 
-![Pipeline](https://img.alicdn.com/tfs/TB1u.2lr8smBKNjSZFsXXaXSVXa-701-469.svg)
+![Pipeline](https://img.alicdn.com/tfs/TB1r_7IsWAoBKNjSZSyXXaHAVXa-1000-1000.png)
 
 通过博客上这张图可以看到，相比 TurboFan，Liftoff 的代码生成效率要高得多，而且博文中介绍到可以在解码和验证函数体的同时不断地执行代码生成，基于 [wasm 的流式处理 API](https://v8project.blogspot.com/2018/02/v8-release-65.html)，可以使 V8 在通过网络下载 wasm 的同时将 wasm 代码不断编译到机器码，加快启动执行效率。
 
-![Code Generation Performance: Liftoff vs. TurboFan on Macbook](https://img.alicdn.com/tfs/TB1x_jmr8jTBKNjSZFNXXasFXXa-490-282.svg)
+![Code Generation Performance: Liftoff vs. TurboFan on Macbook](https://img.alicdn.com/tfs/TB1oKwutiMnBKNjSZFCXXX0KFXa-1000-1000.png)
 
 从后文的图也可以看出性能提升也是相当明显的。
 
@@ -104,4 +104,4 @@ tags:
 
 随着 1.0 草案的落地，四大主流浏览器的支持，今年大概真的可以算 wasm 元年了。浏览器里跑操作系统都已经不是梦，AutoDesk 也可以搬到浏览器里，未来还有什么是不可取代的 B/S 呢？当然另一方面也意味着前端的版图已经越来越广阔，要学的东西更多了，如果你对 wasm 还没有多少了解，不妨从 Lin Clark 的 [《A cartoon intro to WebAssembly》](https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/) 看起（中文翻译版可以参见：<https://www.w3ctech.com/topic/2027>），浅显易懂，非常推荐。
 
-以上。
+以上。如有谬误，敬请指正。
