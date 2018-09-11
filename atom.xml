@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://web-miner.js.org/"/>
+  <link href="https://webminer.js.org/"/>
   <updated>2018-09-11T03:41:58.045Z</updated>
-  <id>https://web-miner.js.org/</id>
+  <id>https://webminer.js.org/</id>
   
   <author>
     <name>Hiroki Leo</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>【2018.09.08】周游记 - Week 2</title>
-    <link href="https://web-miner.js.org/2018/09/11/2018.09.08/"/>
-    <id>https://web-miner.js.org/2018/09/11/2018.09.08/</id>
+    <link href="https://webminer.js.org/2018/09/11/2018.09.08/"/>
+    <id>https://webminer.js.org/2018/09/11/2018.09.08/</id>
     <published>2018-09-11T03:18:22.638Z</published>
     <updated>2018-09-11T03:41:58.045Z</updated>
     
@@ -32,15 +32,15 @@
     
     </summary>
     
-      <category term="周刊" scheme="https://web-miner.js.org/categories/%E5%91%A8%E5%88%8A/"/>
+      <category term="周刊" scheme="https://webminer.js.org/categories/%E5%91%A8%E5%88%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>【2018.09.01】周游记 - Week 1</title>
-    <link href="https://web-miner.js.org/2018/08/29/2018.09.01/"/>
-    <id>https://web-miner.js.org/2018/08/29/2018.09.01/</id>
+    <link href="https://webminer.js.org/2018/08/29/2018.09.01/"/>
+    <id>https://webminer.js.org/2018/08/29/2018.09.01/</id>
     <published>2018-08-29T02:26:17.739Z</published>
     <updated>2018-09-11T03:42:04.705Z</updated>
     
@@ -53,15 +53,15 @@
     
     </summary>
     
-      <category term="周刊" scheme="https://web-miner.js.org/categories/%E5%91%A8%E5%88%8A/"/>
+      <category term="周刊" scheme="https://webminer.js.org/categories/%E5%91%A8%E5%88%8A/"/>
     
     
   </entry>
   
   <entry>
     <title>WebAssembly 新鲜事儿</title>
-    <link href="https://web-miner.js.org/2018/08/24/wasm-news/"/>
-    <id>https://web-miner.js.org/2018/08/24/wasm-news/</id>
+    <link href="https://webminer.js.org/2018/08/24/wasm-news/"/>
+    <id>https://webminer.js.org/2018/08/24/wasm-news/</id>
     <published>2018-08-24T08:11:47.841Z</published>
     <updated>2018-08-27T08:44:02.367Z</updated>
     
@@ -78,12 +78,12 @@
     
     </summary>
     
-      <category term="技术" scheme="https://web-miner.js.org/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://webminer.js.org/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="wasm" scheme="https://web-miner.js.org/tags/wasm/"/>
+      <category term="wasm" scheme="https://webminer.js.org/tags/wasm/"/>
     
-      <category term="v8" scheme="https://web-miner.js.org/tags/v8/"/>
+      <category term="v8" scheme="https://webminer.js.org/tags/v8/"/>
     
   </entry>
   
