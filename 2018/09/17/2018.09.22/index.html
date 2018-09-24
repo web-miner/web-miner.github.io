@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+    <meta charset="utf-8">
+<title>【2018.09.22】周游记 - Week 4 - WebMiner</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.css">
+
+
+
+
+<link rel="alternative" href="true" title="【2018.09.22】周游记 - Week 4" type="application/atom+xml">
+
+
+
+<link rel="icon" href="/images/webworker.png">
+
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ovo|Source+Code+Pro">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/css/lightgallery.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/css/justifiedGallery.min.css">
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+
+<link rel="stylesheet" href="/css/style.css">
+
+<script defer src="//use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+    
+    
+    
+    
+    
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-44813171-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-44813171-1');
+</script>
+
+
+    
+    
+    
+
+
+</head>
+<body>
+    
+<nav class="navbar is-transparent is-fixed-top navbar-main" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item navbar-logo" href="/">
+                
+                    
+                    WebMiner
+                    
+                
+            </a>
+            <div class="navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="navbar-menu navbar-start">
+            
+            <a class="navbar-item "
+               href="/archives">归档</a>
+            
+            <a class="navbar-item "
+               href="/about">关于</a>
+            
+            <a class="navbar-item "
+               href="/atom.xml">RSS</a>
+            
+        </div>
+        
+        <div class="navbar-menu navbar-end">
+            
+            <a class="navbar-item search" title="搜索" href="javascript:;">
+                <i class="fas fa-search"></i>
+            </a>
+            
+            
+            
+            <a class="navbar-item" title="GitHub" href="https://github.com/dickeylth">
+                
+                <i class="fab fa-github"></i>
+                
+            </a>
+               
+            
+        </div>
+    </div>
+</nav>
+
+    <section class="section">
+    <div class="container">
+    <article class="article content gallery" itemscope itemprop="blogPost">
+    <h1 class="article-title is-size-3 is-size-4-mobile" itemprop="name">
+        
+            【2018.09.22】周游记 - Week 4
+        
+    </h1>
+    <div class="article-meta columns is-variable is-1 is-multiline is-mobile is-size-7-mobile">
+        
+        <span class="column is-narrow">
+            <time datetime="2018-09-17T07:00:04.472Z" itemprop="datePublished">9月 17 2018</time>
+        </span>
+        
+        
+        <span class="column is-narrow article-category">
+            <i class="far fa-folder"></i>
+            <a class="article-category-link" href="/categories/周刊/">周刊</a>
+        </span>
+        
+        
+        <span class="column is-narrow">
+            
+            
+            12 分钟 读完 (约 1776 字)
+        </span>
+        
+    </div>
+    <div class="article-entry is-size-6-mobile" itemprop="articleBody">
+    
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#🗞-新闻联播"><span class="toc-number">1.</span> <span class="toc-text">🗞 新闻联播</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#📖-百家讲坛"><span class="toc-number">2.</span> <span class="toc-text">📖 百家讲坛</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#🛸-探索·发现"><span class="toc-number">3.</span> <span class="toc-text">🛸 探索·发现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#🛰-天气预报"><span class="toc-number">4.</span> <span class="toc-text">🛰 天气预报</span></a></li></ol>
+    
+    
+        <p><img src="https://gw.alicdn.com/tfs/TB1NiE3wTmWBKNjSZFBXXXxUFXa-1600-400.png" alt=""></p>
+<p>本周要点：<a href="https://lwn.net/SubscriberLink/765108/f1a80a6d6a6ff0f4/" target="_blank" rel="noopener">Linus Torvalds 宣布打算休息一阵子改善自己的行为</a>，与此同时 Linux 内核社区也更新了行为准则；<a href="https://developers.googleblog.com/2018/09/flutter-release-preview-2-pixel-perfect.html" target="_blank" rel="noopener">Flutter Release Preview 2 发布，带来 iOS 风格应用开发支持以及大幅减小安装包体积等特性</a>。</p>
+<a id="more"></a>
+<h3 id="🗞-新闻联播"><a href="#🗞-新闻联播" class="headerlink" title="🗞 新闻联播"></a>🗞 新闻联播</h3><ul>
+<li><p><a href="https://lwn.net/SubscriberLink/765108/f1a80a6d6a6ff0f4/" target="_blank" rel="noopener">Code, conflict, and conduct</a></p>
+<ul>
+<li>这周 Linux 内核开发社区有一些新闻，Linus Torvalds <a href="https://lwn.net/Articles/764901/" target="_blank" rel="noopener">宣布打算休息一阵子</a>，专注于改善自己的行为，与此同时，由来已久的行为准则被一个新的基于 <a href="https://www.contributor-covenant.org/version/1/4/code-of-conduct" target="_blank" rel="noopener">贡献则公约</a> 的行为准则所取代。</li>
+</ul>
+</li>
+<li><p><a href="https://developers.googleblog.com/2018/09/flutter-release-preview-2-pixel-perfect.html" target="_blank" rel="noopener">Flutter Release Preview 2: Pixel-Perfect on iOS</a></p>
+<ul>
+<li>本周的 <a href="https://www.google.cn/intl/zh-CN/events/developerdays2018/" target="_blank" rel="noopener">2018 Google 开发者大会</a> 上 Google 宣布了 <strong>Flutter Release Preview 2</strong>，这将是 1.0 版本之前最后一个大的里程碑。最大的新特性之一是带来了苹果风格的 “Cupertino” 主题的控件以及 <a href="https://docs.flutter.io/flutter/cupertino/cupertino-library.html" target="_blank" rel="noopener">丰富的 Widget 和类库</a>，让 iOS 开发更容易。其次是 <a href="https://github.com/flutter/flutter/issues/16833#issuecomment-410103493" target="_blank" rel="noopener">降低了高达 30% 的应用安装包体积</a>。</li>
+</ul>
+</li>
+</ul>
+<h3 id="📖-百家讲坛"><a href="#📖-百家讲坛" class="headerlink" title="📖 百家讲坛"></a>📖 百家讲坛</h3><ul>
+<li><p><a href="https://www.smashingmagazine.com/2018/09/preparing-your-app-for-ios-12-notifications/" target="_blank" rel="noopener">Preparing Your App For iOS 12 Notifications</a></p>
+<ul>
+<li>随着iOS 12的推出，出现了一些新的通知功能，例如新的授权选项、动态快速操作以及通知中的用户交互。详细了解如何实施这些功能，以及它们是否适合您的应用。本文介绍了诸如静默推送、发送分组通知、通知内容扩展等特性，以及相关的建议。你还可以参考掘金这篇 <a href="https://juejin.im/post/5b1b7c3de51d4506ca62d787" target="_blank" rel="noopener">《WWDC 2018：iOS 12 通知的新特性》</a>。</li>
+</ul>
+</li>
+<li><p><a href="https://medium.com/google-developer-experts/exploring-android-p-enhanced-notifications-a9adb8d78387" target="_blank" rel="noopener">Exploring Android P: Enhanced Notifications</a></p>
+<ul>
+<li>Android 这边 Android P 也呼之欲出了，其中通知 API 这块同样有一些新功能出来，允许我们为应用程序创建更多上下文和详细通知。在本文中将深入研究已添加到Notification API的新通知增强功能。包括 <a href="https://developer.android.com/reference/android/app/Notification.MessagingStyle#addMessage%28java.lang.CharSequence,%20long,%20java.lang.CharSequence%29" target="_blank" rel="noopener"><code>addMessage</code></a> 允许传入 <a href="https://developer.android.com/reference/android/app/Person" target="_blank" rel="noopener"><code>Person</code></a> 实例将消息与特定人员联系起来，并将这些详细信息用于通知内容中的上下文展示，还可以在 <code>Person</code> 上通过 <code>setIcon</code> 设置图标、通过 <code>setKey</code> 设置唯一标识符等，还能将 <code>addMessage</code> 串联起来，还可以通过<a href="https://developer.android.com/reference/android/app/Notification.Action.Builder#setSemanticAction%28int%29" target="_blank" rel="noopener"><code>setSemanticAction</code></a> 设置操作语义。</li>
+</ul>
+</li>
+<li><p><a href="https://twobithistory.org/2018/09/16/the-rise-and-demise-of-rss.html" target="_blank" rel="noopener">《RSS 的兴起与消亡》</a></p>
+<ul>
+<li><p>讲诉了 RSS 从 Netscape 时代是如何兴起，成为与门户网站的竞争者，而之后随着标准发展过程中的各种分歧，社区最终分裂出了 3 个竞争的 RSS 版本，但这还不是导致 RSS 消亡的原因。相反，在 2000 年代 RSS 很受欢迎，包括纽约时报开始在 RSS 中提供头条新闻，还撰写文章普及 RSS，2005 年推出的 Google Reader 用户量达数百万人。但时间到 2013 年的时候，Google Reader 终于宣布关闭，宣称原因是用户数多年来一直下降。今天 RSS 还没有死，但是相比当年已经没有往日的风光。至于原因最有说服力的解释是社交网络就像 RSS 一样，提供了一个包含互联网上所有最新新闻的消息，接管了 RSS，还能在提供内容之外为运营的公司带来更多收益。就像有人指责 Google 关闭 Google Reader 是为了鼓励人们使用 Google+。另一种解释是 RSS 对于非技术的普通大众来说还是太怪异了，对用户体验的友好度不足，并不是真正被设计为面向消费者的技术，一旦有更好的东西出现，人们就会用脚投票。但另一方面悲哀的也是，所以今天我们留下了集中的信息孤岛，从开放的 Web 传播共享走向了封闭的社交网络。</p>
+<ul>
+<li><blockquote>
+<p>文中最后一句话很值得细细品味：“Consensus is difficult to achieve and it takes time, but without consensus spurned developers will go off and create competing standards. The lesson here may be that if we want to see a better, more open web, we have to get better at not screwing each other over.”（达成共识很难实现，而且需要时间，但如果无法达成共识，开发人员就会摒弃并制定竞争标准。这里的教训可能是，如果我们想要看到一个更好、更开放的网络，我们必须在不要互相拆台这方面做得更好一些。）</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><a href="https://juejin.im/post/5a4dc842518825698e7279a9" target="_blank" rel="noopener">Tree-Shaking性能优化实践 - 原理篇</a></p>
+<ul>
+<li>Tree-shaking 作为 DCE（Dead Code Elimination）的手段之一，随着 <a href="https://rollupjs.org/guide/en" target="_blank" rel="noopener">rollup.js</a> 的兴起在前端社区广为人知，说起来似乎也很容易理解，但你真的理解 Tree-shaking 内部的原理吗？有仔细观察过是否真的是”所有没用到的引用的代码都会自动在构建时被剔除“吗？这篇文章带你一探究竟。</li>
+</ul>
+</li>
+</ul>
+<h3 id="🛸-探索·发现"><a href="#🛸-探索·发现" class="headerlink" title="🛸 探索·发现"></a>🛸 探索·发现</h3><ul>
+<li><a href="https://mp.weixin.qq.com/s/eJ1ue5l5f0W1jvZ4unJJkA" target="_blank" rel="noopener">Facebook 工作体验之绩效考核</a><ul>
+<li>介绍了在 Facebook 里的 KPI 相关的一些八卦，比如层级的保密、绩效的衡量、团队之间的差异、项目管理上的风格等。</li>
+</ul>
+</li>
+<li><a href="https://github.com/intoli/user-agents" target="_blank" rel="noopener">user-agents</a><ul>
+<li>一个 JavaScript 库，用来生成基于每日更新的数据的随机 user-agent。</li>
+</ul>
+</li>
+<li><a href="https://github.com/axa-group/nlp.js" target="_blank" rel="noopener">NLP.js</a><ul>
+<li>面向 node.js 的一个通用的自然语言处理的工具库。目前支持猜测短语的语言、快速计算两个字符串的相似度（编辑距离）、短语的情感分析、自然语言处理分类器等。</li>
+</ul>
+</li>
+</ul>
+<h3 id="🛰-天气预报"><a href="#🛰-天气预报" class="headerlink" title="🛰 天气预报"></a>🛰 天气预报</h3><ul>
+<li>09.29 - 09.30  <a href="http://www.reactboston.com/" target="_blank" rel="noopener">React Boston</a>，📍波士顿</li>
+<li>10.14               <a href="https://2018.imweb.io/" target="_blank" rel="noopener">腾讯 IMWebConf 2018 </a>，📍深圳</li>
+<li>10.14               <a href="http://cn.pycon.org/2018/" target="_blank" rel="noopener">PyCon China 2018 北京站</a>，📍北京</li>
+<li>10.18 - 10.20  <a href="https://2018.qconshanghai.com/" target="_blank" rel="noopener">QCon 2018 上海站</a>，📍上海</li>
+<li>10.21               <a href="http://cn.pycon.org/2018/" target="_blank" rel="noopener">PyCon China 2018 上海站</a>，📍上海</li>
+<li>10.27               <a href="http://cn.pycon.org/2018/" target="_blank" rel="noopener">PyCon China 2018 深圳站</a>，📍深圳</li>
+<li>11.04               <a href="http://cn.pycon.org/2018/" target="_blank" rel="noopener">PyCon China 2018 杭州站</a>，📍杭州</li>
+<li>11.16 - 11.19  <a href="https://cnutcon2018.geekbang.org/" target="_blank" rel="noopener">CNUTCon 全球运维技术大会2018</a>，📍上海</li>
+<li>12.07 - 12.08  <a href="https://bj2018.archsummit.com/?utm_source=geekbang&amp;utm_medium=banner" target="_blank" rel="noopener">ArchSummit 全球架构师峰会</a>，📍北京</li>
+</ul>
+
+    
+    </div>
+    
+    
+    <div class="columns is-mobile is-multiline article-nav">
+        <span class="column is-12-mobile is-half-desktop is-hidden-mobile article-nav-prev">
+            
+        </span>
+        <span class="column is-12-mobile is-half-desktop  article-nav-next">
+            
+            <a href="/2018/09/16/2018.09.15/">【2018.09.15】周游记 - Week 3</a>
+            
+        </span>
+    </div>
+    
+</article>
+
+
+<div class="sharebox">
+    
+<div class="addthis_inline_share_toolbox"></div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b7e7da79495ef36"></script>
+
+</div>
+
+
+
+<div class="comments">
+    <h3 class="title is-4">评论</h3>
+    
+<script>
+    var disqus_config = function () {
+        this.page.url = 'https://webminer.js.org/2018/09/17/2018.09.22/';
+        this.page.identifier = '2018/09/17/2018.09.22/';
+        
+        this.language = 'zh';
+        
+    };
+    (function() {
+        var d = document, s = d.createElement('script');  
+        s.src = '//' + 'webhacker' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+
+<div id="disqus_thread">
+    
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+
+    </div>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="columns content">
+            <div class="column is-narrow has-text-centered">
+                &copy; 2018 Hiroki Leo&nbsp;
+                Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> & <a
+                        href="http://github.com/ppoffice/hexo-theme-minos">Minos</a>
+            </div>
+            <div class="column is-hidden-mobile"></div>
+
+            
+            
+        </div>
+    </div>
+</footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment-with-locales.min.js"></script>
+
+<!-- test if the browser is outdated -->
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/outdated-browser/1.1.5/outdatedbrowser.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // plugin function, place inside DOM ready function
+        outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'flex'
+        })
+    });
+</script>
+
+<script>
+    window.FontAwesomeConfig = {
+        searchPseudoElements: true
+    }
+    moment.locale("zh-CN");
+</script>
+
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script>
+    MathJax.Hub.Config({
+        "HTML-CSS": {matchFontHeight: false},
+        SVG: {matchFontHeight: false},
+        CommonHTML: {matchFontHeight: false}
+    });
+</script>
+
+    
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.8/js/lightgallery-all.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.5/js/jquery.justifiedGallery.min.js"></script>
+<script>
+    (function ($) {
+        $(document).ready(function () {
+            if (typeof($.fn.lightGallery) === 'function') {
+                $('.article.gallery').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof($.fn.justifiedGallery) === 'function') {
+                $('.justified-gallery').justifiedGallery();
+            }
+        });
+    })(jQuery);
+</script>
+
+    
+    
+
+    
+    
+    
+
+
+<script src="/js/script.js"></script>
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-mask"></div>
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="站内搜索" />
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: '文章',
+                PAGES: '页面',
+                CATEGORIES: '分类',
+                TAGS: '标签',
+                UNTITLED: '(无标题)',
+            },
+            CONTENT_URL: '/content.json',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script src="/js/insight.js"></script>
+    
+</body>
+</html>
